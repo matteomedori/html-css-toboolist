@@ -63,8 +63,11 @@ button {
 
 /* main section */
 .main-sect {
-  margin-top: 40px;
   padding-left: 100px;
+}
+
+section {
+  margin-top: 40px;
 }
 
 /* section New Task */
@@ -84,7 +87,8 @@ button {
   margin-right: 10px;
 }
 
-.testo {
+.testo,
+li {
   font-size: 20px;
 }
 
@@ -100,6 +104,63 @@ button {
   margin-left: 10px;
 }
 
-.row {
-  margin-top: 10px;
+.row,
+li {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.check-li::before,
+.cross-li::before {
+  content: "\2713";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #2dc6ab;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: #2dc6ab;
+  margin-right: 10px;
+}
+
+.cross-li::before {
+  content: "\2717";
+  border: 1px solid #ff3f3f;
+  color: #ff3f3f;
+}
+
+.endline-blue::after,
+.endline-purple::after,
+.endline-green::after,
+.endline-orange::after {
+  content: "Editorial";
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  background-color: #14aaf5;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.endline-purple::after {
+  content: "Q1 goals";
+  background-color: #ab5de6;
+}
+
+.endline-green::after {
+  content: "Recruiting";
+  background-color: #2cc6ab;
+}
+
+.endline-orange::after {
+  content: "Mobile";
+  background-color: #ff9b00;
 }
