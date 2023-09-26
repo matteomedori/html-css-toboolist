@@ -7,7 +7,7 @@
 
 /* ---------- Header --------- */
 header {
-  height: 150px;
+  height: 90px;
   padding: 10px 30px;
 }
 
@@ -20,4 +20,40 @@ h1 {
   display: inline-block;
   vertical-align: middle;
   font-size: 50px;
+}
+
+/* ----------- Main ------------*/
+main {
+  background-color: #f6f8f9;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding-left: 100px;
+}
+
+/*buttons*/
+.buttons {
+  padding: 10px 5px;
+}
+
+button {
+  width: 100px;
+  padding: 10px 2px;
+  border-radius: 5px;
+  margin-right: 5px;
+  border: none;
+}
+
+#butt-addTask {
+  background-color: #14aaf5;
+  color: white;
+}
+
+#butt-addSection {
+  background-color: white;
+  border: 1px solid #c4cbd0;
+  color: #c4cbd0;
 }
