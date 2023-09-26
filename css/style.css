@@ -136,7 +136,9 @@ ul {
 .endline-blue::after,
 .endline-purple::after,
 .endline-green::after,
-.endline-orange::after {
+.endline-orange::after,
+.endline-pink::after,
+.endline-lightgreen::after {
   content: "Editorial";
   display: inline-block;
   width: 90px;
@@ -163,4 +165,18 @@ ul {
 .endline-orange::after {
   content: "Mobile";
   background-color: #ff9b00;
+}
+
+.endline-pink::after {
+  content: "Website";
+  background-color: #ec4a9d;
+}
+
+.endline-lightgreen::after {
+  content: "Sales";
+  background-color: #a3d116;
+}
+
+.final-section {
+  margin-bottom: 100px;
 }
