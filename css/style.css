@@ -2,13 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: "Roboto", sans-serif;
+  background-color: #f6f8f9;
 }
 
 /* ---------- Header --------- */
 header {
-  height: 90px;
   padding: 10px 30px;
+  background-color: white;
 }
 
 #logo {
@@ -23,51 +27,46 @@ h1 {
 }
 
 /* ----------- Main ------------*/
-main {
-  background-color: #f6f8f9;
-}
-
 .container {
   width: 70%;
   margin: 0 auto;
-  background-color: white;
-  border-top: 40px solid #f6f8f9;
-  border-bottom: 10px solid #f6f8f9;
+  margin-top: 40px;
+  border-radius: 10px;
 }
 
 /*buttons*/
 .buttons {
   padding: 10px 5px;
-  border-bottom: 5px solid #f6f8f9;
+  background-color: white;
+  margin-bottom: 3px;
   padding-left: 100px;
 }
 
-button {
-  width: 100px;
-  padding: 10px 2px;
+.buttons .btn {
+  all: unset;
+  padding: 6px 10px;
+  border: 1px solid #c4cbd0;
   border-radius: 5px;
   margin-right: 5px;
-  border: none;
+  background-color: white;
+  color: #c4cbd0;
 }
 
 #butt-addTask {
   background-color: #14aaf5;
   color: white;
-}
-
-#butt-addSection {
-  background-color: white;
-  border: 1px solid #c4cbd0;
-  color: #c4cbd0;
+  border: 1px solid #14aaf5;
 }
 
 /* main section */
 .main-sect {
-  padding-left: 100px;
+  background-color: white;
+  padding: 40px 100px;
+  color: #444952;
 }
 
 section {
-  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 /* section New Task */
@@ -175,8 +174,4 @@ ul {
 .endline-lightgreen::after {
   content: "Sales";
   background-color: #a3d116;
-}
-
-.final-section {
-  margin-bottom: 100px;
 }
